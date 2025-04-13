@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin:0;
+}
+section,footer{
+background-color: #bdeeee;
+border:15px#80c5ec solid;
+padding: 30px 50px;
+margin: 20px;
+}
+
+
+section li{
+    display:inline;
+    margin-right: 4vw;
+}
+section  a{
+    color:rgba(35, 50, 62, 0.608);
+    text-decoration:none;
+}
+section  a:hover{
+    text-decoration:underline;
+}
+section ul{
+    position:absolute;
+    right:0vw;
+    top: 120px;
+    line: height 80px;
+}
+h1{
+    text-align: center;
+    font-size: 300%;
+    color:rgb(220, 142, 179)
+
+}
+.news{
+    background-color: #ffffff;
+    border:0px#ffffff solid;
+    padding: 30px 50px;
+    margin: 10px;
+    }
+.product div{
+    width:300px;
+    text-align: center;
+}
+.product{
+    display:flex;
+    background-color: #ffffff;
+    justify-content:space-between;
+    align-items: center;
+    padding: 100px 180px 80px;
+}
+.product img{
+    width: 300px;
+    border-radius:10px;
+}
+.product h3{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.product p{
+    font-size: 14px;
+    line-height:1.6em;
+}
